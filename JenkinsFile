@@ -4,7 +4,7 @@ pipeline {
         stage('Git-Checkout') {
             steps {
                     echo "checkin out for git repo"
-                    git credentialsId: 'f491d7b8-4307-471b-9a62-7e4851f55dbd', url: 'https://github.com/Ashish-1699/webapp.git'
+                    git url: 'https://github.com/Ashish-1699/webapp.git'
             }
         }
             
